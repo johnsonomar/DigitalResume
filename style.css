@@ -16,6 +16,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 12pt;
+  display:flex; 
+  flex-direction:column;
 }
 
 #logo img {
@@ -235,7 +237,7 @@ table.spacing {
     border-spacing: 10px;
 }
 td {
-    align: center
+    align-content: center;
 }
 button {
 	padding: 30px;
@@ -483,7 +485,7 @@ table.spacing {
     border-spacing: 10px;
 }
 td {
-    align: center
+    align-content: center;
 }
 button {
 	padding: 30px;
