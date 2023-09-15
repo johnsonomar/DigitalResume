@@ -16,9 +16,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   font-size: 12pt;
-  display:flex; 
-  flex-direction:column;
 }
+
+footer{
+	position:absolute;
+	bottom:0;
+}
+
 
 #logo img {
     display:block;
@@ -236,12 +240,10 @@ font-size: 13pt;
 table.spacing {
     border-spacing: 10px;
 }
-td {
-    align-content: center;
-	padding:10px;
-}
+
 button {
 	padding: 30px;
+	padding-bottom: none;
 	border: none;
 	background: none;
 }
@@ -485,12 +487,10 @@ font-size: 13pt;
 table.spacing {
     border-spacing: 10px;
 }
-td {
-    align-content: center;
-		padding:10px;
-}
+
 button {
 	padding: 30px;
+	padding-bottom: none;
 	border: none;
 	background: none;
 }
