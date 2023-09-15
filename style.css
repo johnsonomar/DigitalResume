@@ -238,6 +238,7 @@ table.spacing {
 }
 td {
     align-content: center;
+	padding:10px;
 }
 button {
 	padding: 30px;
@@ -486,6 +487,7 @@ table.spacing {
 }
 td {
     align-content: center;
+		padding:10px;
 }
 button {
 	padding: 30px;
