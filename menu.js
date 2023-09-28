@@ -1,7 +1,7 @@
 
 
 
-/* Make one tab visible and the others hiddne */
+/* Make one tab visible and the others hidden */
 function visibleTab() {
     var currentId = getHash(this.getAttribute('href'));
     
